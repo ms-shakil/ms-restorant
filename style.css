@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(img/bg-hero.jpg);
+
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 0px 25px;
+    
+}
+.nav_left{
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    color: #FEA116;
+}
+.nav_right{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.home_{
+    color: #FEA116;
+    text-decoration: none;
+}
+.nav_right_child{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+
+}
+.book_table{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-left:15px;
+    border: none;
+    color: white;
+    background-color: #FEA116;
+    border-radius: 5px;
+}
+
+.home{
+   display: flex;
+   margin-top: 100px;
+}
+.home_left{
+    width: 50%;
+    margin-left: 7%;
+    align-items: center;
+
+}
+.home_left h1{
+    font-size: 65px;
+    color: white;
+}
+.home_left p{
+    font-size: 18px;
+    color:white;
+}
+.book_table2{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 40px;
+    border: none;
+    color: white;
+    background-color: #FEA116;
+    border-radius: 3px;
+}
+.home_right img {
+    animation: imgRotate 30s linear infinite;
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
