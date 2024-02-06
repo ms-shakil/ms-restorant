@@ -93,6 +93,11 @@ body{
     margin-top: 50px;
 
 }
+.card:hover {
+    .card_logo{
+        color: blue
+    }
+}
 .card div{
    
     width: 18%;
@@ -111,12 +116,65 @@ body{
 
 .card_logo{
     margin-top: 30px;
-    margin-left: 12px;
-    font-size: 60px;
+    margin-left: 22px;
+    font-size: 50px !important;
+    color: #FEA116;
 }
 
 .card div:hover{
     background-color: #FEA116;
     color: white;
+
 }
 
+.card div:hover .card_logo{
+    color: white;
+}
+
+.about_page{
+    display: flex;
+    margin: 10%  10%;
+}
+
+
+.about_left{
+    width: 50%;
+
+}
+.about_right{
+    width: 50%;
+}
+.about_us{
+   font-style: italic;
+   font-size: 30px;
+   color: #FEA116;
+}
+.about_wellcome{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about_right p{
+    font-size: 18px;
+    color: #666565;
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+}
+.histroy_left{
+    display: flex;
+}
+.history_right{
+    display: flex;
+}
+
+.history_button{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 18px 35px;
+    margin-top: 40px;
+    border: none;
+    color: white;
+    background-color: #FEA116;
+    border-radius: 5px;
+}
