@@ -101,7 +101,7 @@ body{
 .card div{
    
     width: 18%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
 }
 .card div h2{
     margin-left: 12px;
@@ -110,6 +110,7 @@ body{
 .card div p{
     margin-left: 12px;
     margin-bottom: 50px;
+    color: #666565;
 
   
 }
@@ -128,6 +129,9 @@ body{
 }
 
 .card div:hover .card_logo{
+    color: white;
+}
+.card div:hover .card_p{
     color: white;
 }
 
@@ -177,4 +181,37 @@ body{
     color: white;
     background-color: #FEA116;
     border-radius: 5px;
+}
+
+.menu{
+    text-align: center;
+}
+.menu_header{
+    font-size: 26px;
+    color: #FEA116;
+    font-style: italic;
+}
+.menu_text{
+    font-size: 30px;
+}
+.menu_items{
+    display: flex;
+    justify-content: center;
+}
+.menu_logo{
+
+    font-size: 35px !important;
+    color: #FEA116;
+}
+
+.menu_items_childs{
+    display: flex;
+    margin-right: 30px;
+}
+.menu_grand_childs{
+    margin-left: 10px;
+}
+.menu_grand_childs span{
+    color: #666565;
+    font-size: 18px;
 }
