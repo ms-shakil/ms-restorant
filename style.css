@@ -195,8 +195,11 @@ body{
     font-size: 30px;
 }
 .menu_items{
+    margin: 0% 35%;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #666565 ;
+
 }
 .menu_logo{
 
@@ -206,7 +209,9 @@ body{
 
 .menu_items_childs{
     display: flex;
-    margin-right: 30px;
+    margin-right: 34px;
+    margin-left: 18px;
+
 }
 .menu_grand_childs{
     margin-left: 10px;
