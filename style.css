@@ -220,3 +220,19 @@ body{
     color: #666565;
     font-size: 18px;
 }
+.item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item_box{
+    display: flex;
+}
+.item_box div{
+    margin-left: 15px;
+}
+.item_border{
+    border-bottom: 1px solid gray;
+}
+.doller{
+    color: #FEA116;
+}
